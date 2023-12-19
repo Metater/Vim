@@ -1,4 +1,11 @@
 # Vim
+## Editing
+- o - new line below
+- O - new line above
+- x - delete under cursor
+- X - delete left of cursor
+- d - delete
+- p - paste register
 ## Navigation
 - hjkl - main
 - % - jump between matching {, (, [
@@ -26,5 +33,16 @@
 - 3w - go to start of 3rd word
 - 3iho <Esc>|jk - type hohoho
 - /hello - search for hello; n for previous occurrence and N for next occurrence
+- rx - replace cursor character with 'x'
+- 3dw - delete words to right 3 times
 
-Continue on o - new line below current
+# Dump
+d2e - delete 2 words
+. - to repeat the last command
+v - visual mode toggle, select text, 'd' to delete selected
+:w, :q, :q!, save, quit, quit without saving
+u - undo
+ctrl+r - redo
+
+https://superuser.com/a/884981
+
